@@ -12,6 +12,14 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+    registerWithEureka: true
+    fetchRegistry: false
+    healthcheck:
+      enabled: true
+  instance:
+    preferIpAddress: true
+  server:
+    enableSelfPreservation: false
 mysql:
   client:
     server: localhost
