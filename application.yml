@@ -1,0 +1,25 @@
+AppSettings:
+  SiteTitle: This is the common application file
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.20.20.25:8761/eureka/
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+    
+module:
+  location:
+    module: 'ordersubModule'
+    parent: 'labModule'
