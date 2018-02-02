@@ -11,7 +11,7 @@ Logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.20.20.25:8761/eureka/
+      defaultZone: https:/csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
 mysql:
   client:
     server: localhost
