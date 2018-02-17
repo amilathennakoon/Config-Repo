@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the development application file
+  SiteTitle: This is the development application file - LAB Module
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
