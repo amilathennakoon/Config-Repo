@@ -1,6 +1,6 @@
 AppSettings:
   SiteTitle: This is the development application file - LAB Module
-  TemplateTitle: csi-template-new
+  TemplateID: csi-template-new
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
