@@ -8,7 +8,7 @@ eureka:
 
 ---
 spring:
-  profiles: docker
+  profiles: predix
 eureka:
   client:
     serviceUrl:
@@ -16,8 +16,8 @@ eureka:
 
 ---
 spring:
-  profiles: Development
+  profiles: docker
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+      defaultZone: https://csi-eureka-server.run.docker/eureka/
