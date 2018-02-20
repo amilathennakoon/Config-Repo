@@ -9,12 +9,8 @@ Logging:
     System: Information
     Microsoft: Information
 ConnectionStrings:
-  DB: PatientDB
-    WriteCon: PatientDBWrite
-    ReadCon: PatientDBRead
-  DB: LabDB
-    WriteCon: LabDBWrite
-    ReadCon: LabDBRead
+  WriteCon: PatientDBWrite
+  ReadCon: PatientDBRead
 eureka:
   client:
     serviceUrl:
