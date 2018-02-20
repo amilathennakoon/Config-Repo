@@ -9,7 +9,7 @@ Logging:
     System: Information
     Microsoft: Information
 ConnectionStrings:
-  WriteCon: ${application.AppSettings:SiteTitle}
+  WriteCon: '${application.AppSettings:SiteTitle}'
   ReadCon: PatientDBRead
 eureka:
   client:
