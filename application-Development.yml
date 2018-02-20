@@ -8,7 +8,13 @@ Logging:
     Default: Debug
     System: Information
     Microsoft: Information
-
+ConnectionStrings:
+  DB: PatientDB
+    WriteCon: PatientDBWrite
+    ReadCon: PatientDBRead
+  DB: LabDB
+    WriteCon: LabDBWrite
+    ReadCon: LabDBRead
 eureka:
   client:
     serviceUrl:
