@@ -1,0 +1,20 @@
+AppSettings:
+  SiteTitle: This is the patient service staging
+  TemplateID: csi-template-new
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
