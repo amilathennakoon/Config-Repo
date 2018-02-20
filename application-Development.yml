@@ -9,7 +9,7 @@ Logging:
     System: Information
     Microsoft: Information
 ConnectionStrings:
-  WriteCon: ${ASPNETCORE_ENVIRONMENT}
+  WriteCon: '${ASPNETCORE_ENVIRONMENT}'
   ReadCon: PatientDBRead
 eureka:
   client:
