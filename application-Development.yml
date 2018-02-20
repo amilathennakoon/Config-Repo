@@ -9,7 +9,7 @@ Logging:
     System: Information
     Microsoft: Information
 ConnectionStrings:
-  WriteCon: '${application.AppSettings:SiteTitle}'
+  WriteCon: ${ASPNETCORE_ENVIRONMENT}
   ReadCon: PatientDBRead
 eureka:
   client:
