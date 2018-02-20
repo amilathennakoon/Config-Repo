@@ -7,7 +7,12 @@ Logging:
     Default: Debug
     System: Information
     Microsoft: Information
-
+ConnectionStrings:
+  Profile:
+    DBRead: HIS-Patient-READ-Predix
+    DBWrite: HIS-Patient-WRITE-Predix
+    ReadCon: Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database="{{DBRead}}";User Id=postgres;Password=Pass#word1;
+    WriteCon: Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database="{{DBWrite}}";User Id=postgres;Password=Pass#word1;
 eureka:
   client:
     serviceUrl:
