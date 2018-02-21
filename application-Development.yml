@@ -8,9 +8,6 @@ Logging:
     Default: Debug
     System: Information
     Microsoft: Information
-ConnectionStrings:
-  WriteCon: '${ASPNETCORE_ENVIRONMENT}'
-  ReadCon: PatientDBRead
 eureka:
   client:
     serviceUrl:
