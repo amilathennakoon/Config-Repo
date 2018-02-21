@@ -11,6 +11,10 @@ TestVal: testvalue
 ConnectionStrings:
   ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
   WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
+ServiceUrls:
+  LabRequest : "http://172.15.100.10:7003/api/LabRequest/UpdateLabRequestList"
+  TestDirectory: "http://172.15.100.10:7001/api/TestDirectoryMain/"
+  SampleCollection: "http://172.15.100.10:7006/api/SampleCollection/"
 eureka:
   client:
     serviceUrl:
