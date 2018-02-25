@@ -10,8 +10,7 @@ Logging:
 
 eureka:
   client:
-    serviceUrl:
-      defaultZone: https://csi-eurekaserver.run.aws-usw02-pr.ice.predix.io/eureka/
+    serviceUrl: https://csi-eurekaserver.run.aws-usw02-pr.ice.predix.io/eureka/
     registerWithEureka: true
     fetchRegistry: true
     healthcheck:
