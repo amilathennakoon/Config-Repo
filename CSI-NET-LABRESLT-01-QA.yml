@@ -1,0 +1,23 @@
+AppSettings:
+  SiteTitle: This is the staging application file
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabResult-WRITE;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabResult-WRITE;User Id=postgres;Password=Pass#word1;"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
