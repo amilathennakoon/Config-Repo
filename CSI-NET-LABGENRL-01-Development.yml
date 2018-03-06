@@ -12,9 +12,8 @@ ConnectionStrings:
   ReadCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
 eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+  instance:
+    hostname: CSI-NET-LABGENRL-03.run.aws-usw02-pr.ice.predix.io
 mysql:
   client:
     server: localhost
