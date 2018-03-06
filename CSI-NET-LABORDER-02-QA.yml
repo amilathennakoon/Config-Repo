@@ -16,7 +16,7 @@ ServiceUrls:
   TestDirectory: https://CSI-NET-TESTDIRC-02.run.aws-usw02-pr.ice.predix.io/api/TestDirectoryMain/
   SampleCollection: https://CSI-NET-SAMPLECL-02.run.aws-usw02-pr.ice.predix.io/api/SampleCollection/
   PatientService: "https://csi-net-patients-02.run.aws-usw02-pr.ice.predix.io/api/Patient/"
-  LabResult: "https://csi-net-labreslt-02.run.aws-usw02-pr.ice.predix.io/api/LabResults/"
+  LabResult: "https://csi-net-labreslt-05.run.aws-usw02-pr.ice.predix.io/api/LabResults/"
 eureka:
   client:
     serviceUrl:
