@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: CSI-NET-LABREQST-02-QA.yml
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
