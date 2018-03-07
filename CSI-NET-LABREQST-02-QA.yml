@@ -8,7 +8,7 @@ Logging:
     System: Information
     Microsoft: Information
 TestVal: testvalue
-ConnectionStrings:
+ConnectionStrings: 
   ReadCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabRequest-WRITE-QA;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabRequest-WRITE-QA;User Id=postgres;Password=Pass#word1;"
 mysql:
