@@ -9,7 +9,7 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabRequest-WRITE-QA;User Id=postgres;Password=Pass#word1;",
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabRequest-WRITE-QA;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabRequest-WRITE-QA;User Id=postgres;Password=Pass#word1;"
 eureka:
   client:
