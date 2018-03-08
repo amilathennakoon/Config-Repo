@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: CSI-NET-PATIENTS-01-Development.yml
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=HIS-Patient-READ-QA;User Id=postgres;Password=Pass#word1;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=HIS-Patient-READ-QA;User Id=postgres;Password=Pass#word1;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
 eureka:
   client:
     shouldFetchRegistry: true
