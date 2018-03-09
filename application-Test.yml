@@ -1,0 +1,32 @@
+AppSettings:
+  SiteTitle: This is the common application file
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+
+eureka:
+  client:
+    serviceUrl: https://csi-eurekaserver-preprod.run.aws-usw02-pr.ice.predix.io/eureka/
+    registerWithEureka: true
+    fetchRegistry: true
+    healthcheck:
+      enabled: true
+  instance:
+    preferIpAddress: false
+  server:
+    enableSelfPreservation: false
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+    
+module:
+  location:
+    module: 'ordersubModule'
+    parent: 'labModule'

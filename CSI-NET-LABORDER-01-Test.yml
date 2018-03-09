@@ -1,0 +1,31 @@
+AppSettings:
+  SiteTitle: CSI-NET-LABORDER-01-Test
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings: 
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
+ServiceUrls:
+  LabRequest : "http://172.15.100.11:8003/api/LabRequest/UpdateLabRequestList"
+  TestDirectory: "https://172.15.100.11:8001/api/TestDirectoryMain/"
+  SampleCollection: "http://172.15.100.11:8006/api/SampleCollection/"
+  PatientService: "http://172.15.100.11:8005/api/Patient/"
+  LabResult: "http://172.15.100.11:8007/api/LabResults/"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    hostname: "CSI-NET-LABORDER-01-Test.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost

@@ -1,0 +1,25 @@
+AppSettings:
+  SiteTitle: CSI-NET-LABRESLT-01-Test
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabResult-WRITE;User Id=vida_lab_laborder;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabResult-WRITE;User Id=vida_lab_laborder;Password=Pass#word1;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    hostname: "CSI-NET-LABRESLT-01-Test.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
