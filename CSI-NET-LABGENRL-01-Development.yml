@@ -21,6 +21,6 @@ redis:
   client:
     host: localhost
 ServiceUrls:
-  LabRequest : http://172.15.100.11:7003/api/LabRequest/UpdateLabRequestList
+  LabOrder : http://172.15.100.11:7004/api/LabOrder/
   SampleCollection: http://172.15.100.11:7006/api/SampleCollection/
   PatientService: "http://172.15.100.11:7005/api/Patient/"
