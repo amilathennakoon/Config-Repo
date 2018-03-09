@@ -24,8 +24,6 @@ redis:
   client:
     host: localhost
 ServiceUrls:
-  LabRequest : https://CSI-NET-LABREQST-02.run.aws-usw02-pr.ice.predix.io/api/LabRequest/UpdateLabRequestList
-  TestDirectory: https://CSI-NET-TESTDIRC-02.run.aws-usw02-pr.ice.predix.io/api/TestDirectoryMain/
-  SampleCollection: https://CSI-NET-SAMPLECL-02.run.aws-usw02-pr.ice.predix.io/api/SampleCollection/
+  LabOrder : http://172.15.100.11:7004/api/LabOrder/
+  SampleCollection: http://172.15.100.11:7006/api/SampleCollection/
   PatientService: "http://172.15.100.11:7005/api/Patient/"
-  LabResult: "https://csi-net-labreslt-05.run.aws-usw02-pr.ice.predix.io/api/LabResults/"
