@@ -20,3 +20,7 @@ mysql:
 redis:
   client:
     host: localhost
+ServiceUrls:
+  LabRequest : https://CSI-NET-LABREQST-02.run.aws-usw02-pr.ice.predix.io/api/LabRequest/UpdateLabRequestList
+  SampleCollection: http:// /api/SampleCollection/
+  PatientService: "http://172.15.100.11:7005/api/Patient/"
