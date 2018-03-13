@@ -22,7 +22,7 @@ redis:
   client:
     host: localhost
 ServiceUrls:
-  LabOrder: http://localhost:7004/api/LabOrder/
-  SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
-  PatientService: "http://172.15.100.11:7005/api/Patient/"
+  LabOrder: http://172.15.100.57:7000/CSI-NET-LABORDER-01/api/LabOrder/
+  SampleCollection: "http://172.15.100.57:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
+  PatientService: "http://172.15.100.57:7000/CSI-NET-PATIENTS-01/api/Patient/"
 CBCTestID: 12
