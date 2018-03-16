@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: CSI-NET-PATIENTS-02-QA
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
