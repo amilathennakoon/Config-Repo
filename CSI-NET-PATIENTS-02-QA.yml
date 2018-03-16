@@ -16,7 +16,7 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    hostname: "CSI-NET-PATIENTS-02.run.aws-usw02-pr.ice.predix.io"
+    preferIpAddress: true
 mysql:
   client:
     server: localhost
