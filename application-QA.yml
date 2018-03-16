@@ -15,7 +15,7 @@ eureka:
     healthcheck:
       enabled: true
   instance:
-    preferIpAddress: false
+    preferIpAddress: true
   server:
     enableSelfPreservation: false
 mysql:
