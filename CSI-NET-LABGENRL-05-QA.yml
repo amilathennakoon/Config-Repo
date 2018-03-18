@@ -11,6 +11,13 @@ TestVal: testvalue
 ConnectionStrings:
   ReadCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "csi-net-labgenrl-05.run.aws-usw02-pr.ice.predix.io"
 mysql:
   client:
     server: localhost
