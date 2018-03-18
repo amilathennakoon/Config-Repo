@@ -1,5 +1,6 @@
 AppSettings:
   SiteTitle: This is the staging application file
+  TestUri: "https://csi-svr-gateway-01.run.aws-usw02-pr.ice.predix.io/patients/api/values/title"
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
