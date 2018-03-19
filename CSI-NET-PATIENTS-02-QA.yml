@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-PATIENTS-02-QA
+  SiteTitle: CSI-NET-PATIENTS-02-QA-changed
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
