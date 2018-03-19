@@ -9,7 +9,7 @@ Logging:
     Microsoft: Information
 eureka:
   client:
-    serviceUrl: https://eureka-d02d293e-b456-49ca-8e0f-f7713448d5d7.cfapps.io
+    serviceUrl: https://eureka-d02d293e-b456-49ca-8e0f-f7713448d5d7.cfapps.io/eureka/
     registerWithEureka: true
     fetchRegistry: true
     healthcheck:
