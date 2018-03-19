@@ -14,7 +14,7 @@ ConnectionStrings:
 ServiceUrls:
   LabRequest : "http://172.15.100.11:7003/api/LabRequest/UpdateLabRequestList"
   TestDirectory: "http://172.15.100.11:7001/api/TestDirectoryMain/"
-  SampleCollection: "http://localhost:7006/api/SampleCollection/"
+  SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
   PatientService: "http://172.15.100.11:7005/api/Patient/"
   LabResult: "http://localhost:7007/api/LabResults/"
 eureka:
