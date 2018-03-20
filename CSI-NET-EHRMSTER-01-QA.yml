@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
-  WriteCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+  ReadCon: "Host=db-ac815e06-b6c6-4740-815f-e55fe650f094.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=ehrmaster;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-ac815e06-b6c6-4740-815f-e55fe650f094.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=ehrmaster;User Id=postgres;Password=Pass#word1;"
 eureka:
   client:
     shouldFetchRegistry: true
