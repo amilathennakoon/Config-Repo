@@ -9,7 +9,7 @@ Logging:
     Microsoft: Information
 eureka:
   client:
-    serviceUrl: https://csi-eurekaserver-qa.run.aws-usw02-pr.ice.predix.io/eureka/
+    serviceUrl: http://129.213.29.71:31647/eureka/
     registerWithEureka: true
     fetchRegistry: true
     healthcheck:
