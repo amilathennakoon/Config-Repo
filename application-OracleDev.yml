@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-PATIENTS-01-OracleDev
+  SiteTitle: Application file for OracleDev
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
