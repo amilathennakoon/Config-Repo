@@ -25,4 +25,5 @@ ServiceUrls:
   LabOrder: http://172.15.100.57:7000/CSI-NET-LABORDER-01/api/LabOrder/
   SampleCollection: "http://172.15.100.57:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
   PatientService: "http://172.15.100.57:7000/CSI-NET-PATIENTS-01/api/Patient/"
+  Notification: "TestURL"
 CBCTestID: 12
