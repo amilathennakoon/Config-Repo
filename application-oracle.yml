@@ -1,28 +1,45 @@
-AppSettings:
-  SiteTitle: This is the staging application file
-  CacheDbResults: true
-Logging: 
-  IncludeScopes: false
-  LogLevel: 
-    Default: Debug
-    System: Information
-    Microsoft: Information
+spring:
+  thymeleaf.cache: false
+  main.show-banner: false
+  application:
+    name: rcm-master-data
+  datasource:
+    #url: jdbc:postgresql://172.15.100.10:5432/master-data
+    url: jdbc:postgresql://10.244.0.6:5432/master-data
+    username: postgres
+    password:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+postgresql:
+  driver: org.postgresql.Driver
+db:
+  configuration: postgresql
+orm:
+  configuration: spring
+  jackson:
+       date-format: yyyy-MM-dd HH:mm:ss
+
+debug: true
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    org.springframework.data.mongodb.repository.Query: DEBUG
+
+#Server config
+server:
+  port: 10003
+  contextPath: /masterdata
 eureka:
   client:
     serviceUrl:
       defaultZone: http://129.213.29.71:31647/eureka/
-    registerWithEureka: true
-    fetchRegistry: true
-    healthcheck:
-      enabled: true
-  instance:
-    preferIpAddress: false
-    securePortEnabled: true
-  server:
-    enableSelfPreservation: false
-mysql:
-  client:
-    server: localhost
-redis:
-  client:
-    host: localhost
+#Swagger config
+swagger:
+  title: CSI RCM Master Data Manager
+  description: This is the API of Master Data Service
+  licnesne: CSI Licence 1.0
