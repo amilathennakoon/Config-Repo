@@ -1,0 +1,26 @@
+AppSettings:
+  SiteTitle: CSI-NET-PATIENTS-02-QA-changed
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-607fb78b-2af9-46ca-a290-c8abf4854dfe.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "csi-net-patients-02.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
