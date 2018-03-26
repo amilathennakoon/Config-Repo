@@ -16,8 +16,6 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    nonSecurePortEnabled: false
-    vipAddress: 129.213.12.83
     hostname: Lab module patient master service
     port: 8080
 mysql:
