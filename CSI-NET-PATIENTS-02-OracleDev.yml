@@ -17,6 +17,7 @@ eureka:
     shouldRegisterWithEureka: true
   instance:
     hostname: Lab module patient master service
+    instanceId: 129.213.12.83
     port: 8080
 mysql:
   client:
