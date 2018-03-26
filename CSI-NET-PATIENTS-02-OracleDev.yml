@@ -16,6 +16,8 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
+    nonSecurePortEnabled: false
+    hostname: 129.213.12.83
     port: 8080
 mysql:
   client:
