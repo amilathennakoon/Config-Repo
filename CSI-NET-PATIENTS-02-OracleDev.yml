@@ -16,8 +16,8 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    hostname: Lab module patient master service
-    preferIpAddress: 129.213.12.83
+    hostname: 129.213.12.83
+    preferIpAddress: false
     port: 8080
 mysql:
   client:
