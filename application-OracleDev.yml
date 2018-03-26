@@ -15,8 +15,7 @@ eureka:
     healthcheck:
       enabled: true
   instance:
-    preferIpAddress: false
-    securePortEnabled: true
+    securePortEnabled: false
   server:
     enableSelfPreservation: false
 mysql:

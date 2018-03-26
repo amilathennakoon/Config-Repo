@@ -32,7 +32,7 @@ logging:
 
 #Server config
 server:
-  port: 10003
+  port: 8083
   contextPath: /masterdata
 eureka:
   client:
