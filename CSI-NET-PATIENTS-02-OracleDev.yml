@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-PATIENTS-01-OracleDev
+  SiteTitle: CSI-NET-PATIENTS-01-OracleDev-Changed
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
