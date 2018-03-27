@@ -1,26 +1,39 @@
-AppSettings:
-  SiteTitle: Application file for OracleDev
-  CacheDbResults: true
-Logging: 
-  IncludeScopes: false
-  LogLevel: 
-    Default: Debug
-    System: Information
-    Microsoft: Information
+server:
+  port: 8888
+  
+management:
+  context-path: /admin
+  
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    
 eureka:
-  client:
-    serviceUrl: http://129.213.29.71:31647/eureka/
-    registerWithEureka: true
-    fetchRegistry: true
-    healthcheck:
-      enabled: true
   instance:
-    securePortEnabled: false
-  server:
-    enableSelfPreservation: false
-mysql:
+    leaseRenewalIntervalInSeconds: 10
+    statusPageUrlPath: /admin/info
+    healthCheckUrlPath: /admin/health
+    preferIpAddress: true
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/devlkcsi/Config-Repo
+
+---
+#spring:
+#  profiles: csi
+eureka:
+  password: password
+  instance:
+#    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
+    preferIpAddress: false
   client:
-    server: localhost
-redis:
-  client:
-    host: localhost
+    serviceUrl:
+      defaultZone: ${url.service-registry}/eureka/
+      preferIpAddress: false
+      
