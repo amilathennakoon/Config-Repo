@@ -23,3 +23,5 @@ mysql:
 redis:
   client:
     host: localhost
+ServiceURIS:
+  MasterURI: http://localhost:5555/api/EHRMaster/    
