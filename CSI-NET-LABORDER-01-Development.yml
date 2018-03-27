@@ -16,7 +16,7 @@ ServiceUrls:
   TestDirectory: "http://172.15.100.11:7001/api/TestDirectoryMain/"
   SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
   PatientService: "http://172.15.100.11:7005/api/Patient/"
-  LabResult: "http://localhost:7007/api/LabResults/"
+  LabResult: "http://172.15.100.11:7007/api/LabResults/"
 eureka:
   client:
     serviceUrl:
