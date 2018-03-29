@@ -19,7 +19,7 @@ eureka:
   instance:
     hostname: 129.213.12.83
     preferIpAddress: false
-    port: 8080
+    port: 31124
 mysql:
   client:
     server: localhost
