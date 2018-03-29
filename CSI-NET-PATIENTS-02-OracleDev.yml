@@ -17,7 +17,7 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    hostname: 129.213.12.83
+    hostname: 129.213.29.71
     preferIpAddress: false
     port: 31124
 mysql:
