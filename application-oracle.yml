@@ -37,7 +37,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${url.service-registry}/eureka/
+      defaultZone: http://129.213.119.161:30136/eureka/
 #Swagger config
 swagger:
   title: CSI RCM Master Data Manager
