@@ -1,1 +1,24 @@
 
+AppSettings:
+  SiteTitle: This is the development application file
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=vida_lab_laborder;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=vida_lab_laborder;Password=Pass#word1;"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
