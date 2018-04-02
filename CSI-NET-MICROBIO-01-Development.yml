@@ -1,4 +1,3 @@
-
 AppSettings:
   SiteTitle: This is the development application file
   CacheDbResults: true
