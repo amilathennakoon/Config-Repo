@@ -1,0 +1,46 @@
+zuul:
+  routes:
+    s01:
+      path: /patients/**
+      serviceId: CSI-NET-PATIENTS-02
+    s02:
+      path: /message/**
+      serviceId: CSI_MESSAGE_SERVICE
+    s03:
+      path: /configServer/**
+      serviceId: CSI-SVR-CONFIGSVR-01
+    s04:
+      path: /master/**
+      serviceId: RCM-MASTER-DATA  
+ribbon:
+  ConnectTimeout: 1000
+  ReadTimeout: 8000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 4
+  OkToRetryOnAllOperations: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
+      fallback:
+        enabled: false
+      circuitBreaker:
+        enabled: false
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${url.service-registry}/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    preferIpAddress: false
+    securePortEnabled: false
+  server:
+    enableSelfPreservation: false
+server:
+  port: 8765
