@@ -1,0 +1,28 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPALGY-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: Host=localhost;Port=5432; Database=EHRPatientAllergy;User Id=postgres;Password=cloud;
+  WriteCon: Host=localhost;Port=5432; Database=EHRPatientAllergy;User Id=postgres;Password=cloud;
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRPALGY-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  MasterURI: http://localhost:5555/api/EHRMaster/
