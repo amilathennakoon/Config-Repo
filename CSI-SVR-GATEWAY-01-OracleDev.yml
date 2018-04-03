@@ -42,5 +42,5 @@ eureka:
     securePortEnabled: false
   server:
     enableSelfPreservation: false
-server:
-  port: 8765
+server:8765
+  port: 31409
