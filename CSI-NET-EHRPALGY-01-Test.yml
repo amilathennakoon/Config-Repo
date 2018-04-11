@@ -24,4 +24,4 @@ redis:
   client:
     host: localhost
 ServiceURIS:
-  MasterURI: http://172.15.100.57:2020/CSI-NET-EHRMSTER-01/api/EHRMaster/   
+  MasterURI: http://localhost:2020/CSI-NET-EHRMSTER-01/api/EHRMaster/   
