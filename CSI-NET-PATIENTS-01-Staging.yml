@@ -12,8 +12,12 @@ ConnectionStrings:
   ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
 eureka:
+  instance:eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
   instance:
-    hostname: CSI-NET-PATIENTS-01.run.aws-usw02-pr.ice.predix.io
+    hostname: "CSI-NET-PATIENTS-01.run.aws-usw02-pr.ice.predix.io"
 mysql:
   client:
     server: localhost
