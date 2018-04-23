@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-EHRMEDIC-01-Test
+  SiteTitle: CSI-NET-EHRMEDMT-01-Test
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMEDIC-01;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMEDIC-01;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMEDMT-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMEDMT-01;User Id=postgres;Password=csi@2017;"
 eureka:
   client:
     shouldFetchRegistry: true
