@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: This is the staging application file of micro biology
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
