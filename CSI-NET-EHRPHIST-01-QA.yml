@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: patient master - staging file
+  SiteTitle: patient history
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -16,7 +16,7 @@ eureka:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    hostname: "CSI-NET-PATIENTS-01.run.aws-usw02-pr.ice.predix.io"
+    hostname: "CSI-NET-EHRPHIST-01.run.aws-usw02-pr.ice.predix.io"
 mysql:
   client:
     server: localhost
