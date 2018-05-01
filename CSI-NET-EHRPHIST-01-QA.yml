@@ -1,0 +1,27 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPHIST-01-Test
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Host=db-9d58a005-5538-428d-8fec-caf15a134f66.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432; Database=CSI-EHR-WR-EHRPHIST-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Host=db-9d58a005-5538-428d-8fec-caf15a134f66.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432; Database=CSI-EHR-WR-EHRPHIST-01;User Id=postgres;Password=csi@2017;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    hostname: ""
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  MasterURI: https://csi-net-ehrmster-01.run.aws-usw02-pr.ice.predix.io/api/EHRMaster/   
