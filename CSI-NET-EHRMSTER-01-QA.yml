@@ -23,3 +23,5 @@ mysql:
 redis:
   client:
     host: localhost
+ServiceURIS:
+  MasterURI: https://csi-net-ehrmster-01.run.aws-usw02-pr.ice.predix.io/api/EHRMaster/
