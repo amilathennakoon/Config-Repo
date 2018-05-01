@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-EHRMSTER-01
+  SiteTitle: patient master - staging file
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,15 +9,14 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-    ReadCon: "Host=db-ac815e06-b6c6-4740-815f-e55fe650f094.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=Pass#word1;"
-    WriteCon: "Host=db-ac815e06-b6c6-4740-815f-e55fe650f094.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=Pass#word1;"
- eureka:
+  ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=Pass#word1;"
+eureka:
   client:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    preferIpAddress: false,
-    hostname: "CSI-NET-EHRMSTER-01.run.aws-usw02-pr.ice.predix.io"
+    hostname: "CSI-NET-PATIENTS-01.run.aws-usw02-pr.ice.predix.io"
 mysql:
   client:
     server: localhost
