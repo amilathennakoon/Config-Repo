@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: test directory staging
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,12 +9,11 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-TD-WRITE-QA;User Id=postgres;Password=Pass#word1;"
-  WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-TD-WRITE-QA;User Id=postgres;Password=Pass#word1;"
+  ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-TD-WRITE;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-TD-WRITE;User Id=postgres;Password=Pass#word1;"
 eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+  instance:
+    hostname: CSI-NET-TESTDIRC-01.run.aws-usw02-pr.ice.predix.io
 mysql:
   client:
     server: localhost

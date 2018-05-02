@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: lab result STAGING
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -11,18 +11,15 @@ TestVal: testvalue
 ConnectionStrings:
   ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabResult-WRITE;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabResult-WRITE;User Id=postgres;Password=Pass#word1;"
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
 mysql:
   client:
     server: localhost
 redis:
   client:
     host: localhost
+CBCTestID: 10
 ServiceUrls:
-  LabOrder : "http://172.15.100.11:7004/api/LabOrder/"
-  SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
-  PatientService: "http://172.15.100.11:7005/api/Patient/"
+  LabOrder : "https://CSI-NET-LABORDER-01.run.aws-usw02-pr.ice.predix.io/api/LabOrder/"
+  SampleCollection: "https://CSI-NET-SAMPLECL-01.run.aws-usw02-pr.ice.predix.io/api/SampleCollection/"
+  PatientService: "https://CSI-NET-PATIENTS-01.run.aws-usw02-pr.ice.predix.io/api/Patient/"
   Notification: "TestURL"

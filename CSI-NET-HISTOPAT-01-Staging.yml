@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-HISTOPAT-01;User Id=vida_lab_laborder;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-HISTOPAT-01;User Id=vida_lab_laborder;Password=Pass#word1;"
 eureka:
   client:
     serviceUrl:

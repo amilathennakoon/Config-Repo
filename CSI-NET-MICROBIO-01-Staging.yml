@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: This is the staging application file of micro biology
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=vida_lab_laborder;Password=Pass#word1;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=vida_lab_laborder;Password=Pass#word1;"
+  ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-LAB-WR-MICROBIO-01;User Id=postgres;Password=Pass#word1;"
 eureka:
   client:
     serviceUrl:

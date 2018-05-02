@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: lab order staging
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -8,7 +8,7 @@ Logging:
     System: Information
     Microsoft: Information
 TestVal: testvalue
-ConnectionStrings:
+ConnectionStrings: 
   ReadCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=postgres;Password=Pass#word1;"
   WriteCon: "Host=db-e358b028-8e21-48e3-85b8-5cee934d19fc.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=postgres;Password=Pass#word1;"
 ServiceUrls:
@@ -17,10 +17,6 @@ ServiceUrls:
   SampleCollection: https://CSI-NET-SAMPLECL-01.run.aws-usw02-pr.ice.predix.io/api/SampleCollection/
   PatientService: "https://csi-net-patients-01.run.aws-usw02-pr.ice.predix.io/api/Patient/"
   LabResult: "https://csi-net-labreslt-01.run.aws-usw02-pr.ice.predix.io/api/LabResults/"
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
 mysql:
   client:
     server: localhost

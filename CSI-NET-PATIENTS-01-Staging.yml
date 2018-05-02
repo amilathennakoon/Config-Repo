@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: This is the staging application file
+  SiteTitle: patient master - staging file
   CacheDbResults: true
 Logging: 
   IncludeScopes: false

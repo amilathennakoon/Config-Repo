@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-EHRMSTER-01-Test
+  SiteTitle: CSI-NET-EHRPALGY-01
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
@@ -9,14 +9,15 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRPALGY-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRPALGY-01;User Id=postgres;Password=csi@2017;"
 eureka:
   client:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
   instance:
-    hostname: ""
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRPALGY-01.run.aws-usw02-pr.ice.predix.io"
 mysql:
   client:
     server: localhost

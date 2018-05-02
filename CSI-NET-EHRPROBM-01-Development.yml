@@ -1,0 +1,26 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPROBM-01-Test
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRPROBM-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRPROBM-01;User Id=postgres;Password=csi@2017;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    hostname: ""
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+
