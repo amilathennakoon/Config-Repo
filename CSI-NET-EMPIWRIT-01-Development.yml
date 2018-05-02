@@ -1,0 +1,26 @@
+AppSettings:
+  SiteTitle: CSI-NET-EMPIWRIT-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
+  WriteCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EMPIWRIT-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
