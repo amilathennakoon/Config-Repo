@@ -11,7 +11,9 @@ TestVal: testvalue
 ConnectionStrings:
   ReadCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
   WriteCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
-eureka:
+  
+
+  eureka:
   client:
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
@@ -24,3 +26,10 @@ mysql:
 redis:
   client:
     host: localhost
+
+rabbitmq:
+   host: "10.72.6.151"
+   port: "5672"
+   username: "1185afba-8df1-4699-a977-f8b4c0f3c263"
+   password: "3hvde23h7bfva2i5rppbtr0k97"
+   virtual-host: "df03e1b3-e856-4dd2-aaae-f102c5d00d0e"
