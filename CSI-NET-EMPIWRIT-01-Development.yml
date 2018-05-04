@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Host=localhost;Port=5432;Database=PatientRegistrationContext;User Id=postgres;Password=LenovoT470"
-  WriteCon: "Host=localhost;Port=5432;Database=PatientRegistrationContext;User Id=postgres;Password=LenovoT470"
+  ReadCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
+  WriteCon: "Host=db-bac893da-898e-4671-aa5d-eeb3f1d83212.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=PatientRegistrationContext;User Id=empiadmin;Password=Pass#word1;"
   
 
   eureka:
