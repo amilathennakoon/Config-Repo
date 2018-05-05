@@ -28,8 +28,8 @@ redis:
     host: localhost
 
 rabbitmq:
-   host: "10.72.6.151"
+   host: "localhost"
    port: "5672"
-   username: "1185afba-8df1-4699-a977-f8b4c0f3c263"
-   password: "3hvde23h7bfva2i5rppbtr0k97"
-   virtual-host: "df03e1b3-e856-4dd2-aaae-f102c5d00d0e"
+   username: "guest"
+   password: "guest"
+   virtual-host: "empi"
