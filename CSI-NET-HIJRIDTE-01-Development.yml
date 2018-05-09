@@ -1,0 +1,35 @@
+AppSettings:
+  SiteTitle: CSI-NET-HIJRIDTE-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-NET-HIJRIDTB-01;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
+  WriteCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-NET-HIJRIDTB-01;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
+  
+
+  eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-HIJRIDTE-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+
+rabbitmq:
+   host: "10.72.6.151"
+   port: "5672"
+   username: "1185afba-8df1-4699-a977-f8b4c0f3c263"
+   password: "3hvde23h7bfva2i5rppbtr0k97"
+   virtual-host: "df03e1b3-e856-4dd2-aaae-f102c5d00d0e"
