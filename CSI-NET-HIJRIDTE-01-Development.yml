@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-NET-HIJRIDTB-01;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
-  WriteCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=CSI-NET-HIJRIDTB-01;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
+  ReadCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HijriDates;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
+  WriteCon: "Host=db-ffeb28d0-e98a-4811-ac03-761ab44f95ab.c7uxaqxgfov3.us-west-2.rds.amazonaws.com;Port=5432;Database=HijriDates;User Id=ufsqratf4g9nfkgw;Password=qsqx6wzzrujin2w17am234fgs;"
   
 
   eureka:
