@@ -1,5 +1,5 @@
 AppSettings:
-  SiteTitle: CSI-NET-EHRMEDMT-01-Test
+  SiteTitle: CSI-NET-EHRMEDMT-01-UAT
   CacheDbResults: true
 Logging: 
   IncludeScopes: false
