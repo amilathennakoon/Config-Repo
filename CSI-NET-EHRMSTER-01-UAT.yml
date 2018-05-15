@@ -1,0 +1,27 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRMSTER-01-Test
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.139;Port=5432; Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.139;Port=5432; Database=CSI-EHR-WR-EHRMSTER-01;User Id=postgres;Password=csi@2017;"
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    hostname: ""
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  MasterURI: http://172.15.100.139:2020/CSI-NET-EHRMSTER-01/api/EHRMaster/
