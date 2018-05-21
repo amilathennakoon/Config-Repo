@@ -23,7 +23,7 @@ mysql:
 redis:
   client:
     host: localhost
-CBCTestID: 10
+CBCTestID: 32
 ServiceUrls:
   LabOrder : "http://172.15.100.138:7000/CSI-NET-LABORDER-01/api/LabOrder/"
   SampleCollection: "http://172.15.100.138:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
