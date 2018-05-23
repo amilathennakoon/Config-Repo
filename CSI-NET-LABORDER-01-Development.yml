@@ -13,7 +13,7 @@ ConnectionStrings:
   WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
 ServiceUrls:
   LabRequest : "http://172.15.100.57:7000/CSI-NET-LABREQST-01/api/LabRequest/UpdateLabRequestList"
-  TestDirectory: "http://localhost:7001/api/TestDirectoryMain/"
+  TestDirectory: "http://172.15.100.57:7000/CSI-NET-TESTDIRC-01/api/TestDirectoryMain/"
   SampleCollection: "http://172.15.100.57:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
   PatientService: "http://172.15.100.57:7000/CSI-NET-PATIENTS-01/api/Patient/"
   LabResult: "http://localhost:7007/api/LabResults/"
