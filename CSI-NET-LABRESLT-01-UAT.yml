@@ -25,9 +25,9 @@ redis:
     host: localhost
 CBCTestID: 32
 ServiceUrls:
-  LabOrder : "http://172.15.100.138:7000/CSI-NET-LABORDER-01/api/LabOrder/"
-  SampleCollection: "http://172.15.100.138:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
-  PatientService: "http://172.15.100.138:7000/CSI-NET-PATIENTS-01/api/Patient/"
-  TestDirectory: "http://172.15.100.138:7000/CSI-NET-TESTDIRC-01/api/TestDirectoryMaster/"
-  LabMicrobiology: "http://172.15.100.138:7000/CSI-NET-MICROBIO-01/api/Microbiology/"
+  LabOrder : "http://172.15.100.138:9000/CSI-NET-LABORDER-01/api/LabOrder/"
+  SampleCollection: "http://172.15.100.138:9000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
+  PatientService: "http://172.15.100.138:9000/CSI-NET-PATIENTS-01/api/Patient/"
+  TestDirectory: "http://172.15.100.138:9000/CSI-NET-TESTDIRC-01/api/TestDirectoryMaster/"
+  LabMicrobiology: "http://172.15.100.138:9000/CSI-NET-MICROBIO-01/api/Microbiology/"
   Notification: "TestURL"
