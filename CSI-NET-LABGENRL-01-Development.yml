@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=LAB-GeneralMaster-READ-QA;User Id=postgres;Password=Pass#word1;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=CSI-LAB-WR-LGENERAL-01;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.10.11;Port=5432; Database=CSI-LAB-WR-LGENERAL-01;User Id=postgres;Password=Pass#word1;"
 eureka:
   instance:
     hostname: CSI-NET-LABGENRL-03.run.aws-usw02-pr.ice.predix.io
