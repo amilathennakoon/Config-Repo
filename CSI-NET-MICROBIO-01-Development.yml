@@ -15,6 +15,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://csi-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka/
+      LabResult:"http://172.15.100.11:7007/api/LabResults/"
 mysql:
   client:
     server: localhost
