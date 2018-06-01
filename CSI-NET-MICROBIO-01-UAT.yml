@@ -1,27 +1,28 @@
-AppSettings:
-  SiteTitle: CSI-NET-MICROBIO-01-UAT
+--- 
+AppSettings: 
   CacheDbResults: true
+  SiteTitle: CSI-NET-MICROBIO-01-UAT
+ConnectionStrings: 
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
 Logging: 
   IncludeScopes: false
   LogLevel: 
     Default: Debug
-    System: Information
     Microsoft: Information
+    System: Information
+ServiceUrls: 
+  LabResult: "http://172.15.100.138:9000/CSI-NET-MICROBIO-01/api/Microbiology/"
 TestVal: testvalue
-ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
-eureka:
-  client:
+eureka: 
+  client: 
     shouldFetchRegistry: true
     shouldRegisterWithEureka: true
-  instance:
-    hostname: "CSI-NET-MICROBIO-01-Test.run.aws-usw02-pr.ice.predix.io"
-mysql:
-  client:
+  instance: 
+    hostname: CSI-NET-MICROBIO-01-Test.run.aws-usw02-pr.ice.predix.io
+mysql: 
+  client: 
     server: localhost
-redis:
-  client:
+redis: 
+  client: 
     host: localhost
-ServiceUrls:
-  LabResult: "http://172.15.100.138:9000/CSI-NET-MICROBIO-01/api/Microbiology/"
