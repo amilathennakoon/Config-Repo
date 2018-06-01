@@ -26,5 +26,5 @@ ServiceUrls:
   LabOrder : "http://172.15.100.11:7004/api/LabOrder/"
   SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
   PatientService: "http://172.15.100.11:7005/api/Patient/"
-  LabMicrobiology: "http://localhost:7010/api/Microbiology/"
+  LabMicrobiology: "http://172.15.100.11:7010/api/Microbiology/"
   Notification: "TestURL"
