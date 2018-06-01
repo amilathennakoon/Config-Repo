@@ -4,14 +4,14 @@ AppSettings:
 ConnectionStrings: 
   ReadCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
   WriteCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
+ServiceUrls:
+  LabResult: "http://172.15.100.138:9000/CSI-NET-LABRESLT-01/api/LabResults/"
 Logging: 
   IncludeScopes: false
   LogLevel: 
     Default: Debug
     Microsoft: Information
     System: Information
-ServiceUrls: 
-  LabResult: "http://172.15.100.138:9000/CSI-NET-MICROBIO-01/api/Microbiology/"
 TestVal: testvalue
 eureka: 
   client: 
