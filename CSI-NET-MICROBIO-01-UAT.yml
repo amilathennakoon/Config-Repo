@@ -23,3 +23,5 @@ mysql:
 redis:
   client:
     host: localhost
+ServiceUrls:
+  LabResult : "http://172.15.100.138:9000/CSI-NET-MICROBIO-01/api/Microbiology/"
