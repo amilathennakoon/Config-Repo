@@ -22,4 +22,4 @@ redis:
   client:
     host: localhost
 ServiceURIS:
-  MockURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
+  AdmissionURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
