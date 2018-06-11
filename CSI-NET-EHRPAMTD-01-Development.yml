@@ -31,6 +31,7 @@ AdmissionPropertyMap:
   Nationality: Nationality
   Age: Age
   Status: Status
+  AdmissionDateTime: 
   LOS: LOS
   AssignedDoctorID: AssignedDoctorID
   AssignedDoctorName: AssignedDoctorName
