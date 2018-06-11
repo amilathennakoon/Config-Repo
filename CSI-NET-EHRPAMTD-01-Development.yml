@@ -40,5 +40,5 @@ AdmissionPropertyMap:
   HospitalGroupID: HospitalGroupID
   HospitalID: HospitalID
   ClinicGroupID: ClinicGroupID
-  ClinicID: ClinicID
+  
   
