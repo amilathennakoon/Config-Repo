@@ -1,10 +1,11 @@
 --- 
 AppSettings: 
   CacheDbResults: true
-  SiteTitle: "This is the common application file"
-Logging: 
-  IncludeScopes: false
-  LogLevel: 
-    Default: Debug
-    Microsoft: Information
-    System: Information
+  SiteTitle: "Application.yml"
+eureka:
+  instance:
+    preferIpAddress: true
+kafka:
+  brokers: "172.15.100.60:9092,172.15.100.60:9093,172.15.100.60:9094"
+  topic: csi_demo_final
+  
