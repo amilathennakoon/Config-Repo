@@ -1,0 +1,32 @@
+--- 
+AppSettings: 
+  CacheDbResults: true
+  SiteTitle: CSI-NET-TEMPLATE-UAT02
+kafka:
+  service_name: CSI-NET-TEMPLATE
+ConnectionStrings: 
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.138;Port=5432;Database=HIS-Patient-READ;User Id=postgres;Password=csi@2017;"
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    Microsoft: Information
+    System: Information
+TestVal: testvalue
+eureka: 
+  client: 
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance: 
+    hostname: csi-net-template
+    ipAddress: 172.15.100.153
+    port: 4000
+    statusPageUrl: http://172.15.100.153:4000
+    healthCheckUrl: http://172.15.100.153:4000
+mysql: 
+  client: 
+    server: localhost
+redis: 
+  client: 
+    host: localhost
