@@ -9,14 +9,14 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings: 
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=LAB-LabOrder-WRITE-QA;User Id=vida_lab_laborder;Password=Pass#word1;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-LABORDER-01;User Id=postgres;Password=Pass#word1;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-LABORDER-01;User Id=postgres;Password=Pass#word1;"
 ServiceUrls:
-  LabRequest : "http://172.15.100.11:7003/api/LabRequest/UpdateLabRequestList"
-  TestDirectory: "http://172.15.100.11:7001/api/TestDirectoryMain/"
-  SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
-  PatientService: "http://172.15.100.11:7005/api/Patient/"
-  LabResult: "http://172.15.100.11:7007/api/LabResults/"
+  LabRequest : "http://172.15.100.57:7000/CSI-NET-LABREQST-01/api/LabRequest/UpdateLabRequestList"
+  TestDirectory: "http://172.15.100.57:7000/CSI-NET-TESTDIRC-01/api/TestDirectoryMain/"
+  SampleCollection: "http://172.15.100.57:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
+  PatientService: "http://172.15.100.57:7000/CSI-NET-PATIENTS-01/api/Patient/"
+  LabResult: "http://localhost:7007/api/LabResults/"
 eureka:
   client:
     serviceUrl:

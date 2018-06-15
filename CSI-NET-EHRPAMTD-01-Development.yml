@@ -1,0 +1,45 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPAMTD-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRPAMTD-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  AdmissionURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
+AdmissionPropertyMap:
+  AdmissionID: AdmissionID
+  AdmissionNo: AdmissionNo
+  PatientID: PatientID
+  PatientName: PatientName
+  Nationality: Nationality
+  Age: Age
+  Status: Status
+  AdmissionDateTime:  AdmissionDateTime
+  LOS: LOS
+  AssignedDoctorID: AssignedDoctorID
+  AssignedDoctorName: AssignedDoctorName
+  BedNo: BedNo
+  IsLegalCase: IsLegalCase
+  HospitalGroupID: HospitalGroupID
+  HospitalID: HospitalID
+  ClinicGroupID: ClinicGroupID
+  ClinicID: ClinicID
+  
+  
