@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.151;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.151;Port=5432;Database=MICROBIO;User Id=postgres;Password=csi@2017;"
 eureka:
   client:
     serviceUrl:
@@ -22,4 +22,4 @@ redis:
   client:
     host: localhost
 ServiceUrls:
-  LabResult : "http://172.15.100.11:7007/api/LabResults/"
+  LabResult : "http://172.15.100.57:7000/CSI-NET-LABRESLT-01/api/LabResults/"
