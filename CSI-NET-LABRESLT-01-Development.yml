@@ -9,8 +9,8 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-LABRESLT-01;User Id=postgres;Password=csi@2017;"
-  WriteCon: "Server=Lab-Postgre;Host=172.15.100.11;Port=5432;Database=CSI-LAB-WR-LABRESLT-01;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Server=Lab-Postgre;Host=172.15.100.151;Port=5432;Database=CSI-LAB-WR-LABRESLT-01;User Id=postgres;Password=csi@2017;"
+  WriteCon: "Server=Lab-Postgre;Host=172.15.100.151;Port=5432;Database=CSI-LAB-WR-LABRESLT-01;User Id=postgres;Password=csi@2017;"
 eureka:
   client:
     serviceUrl:
@@ -23,8 +23,8 @@ redis:
     host: localhost
 CBCTestID: 10
 ServiceUrls:
-  LabOrder : "http://172.15.100.11:7004/api/LabOrder/"
-  SampleCollection: "http://172.15.100.11:7006/api/SampleCollection/"
-  PatientService: "http://172.15.100.11:7005/api/Patient/"
-  LabMicrobiology: "http://172.15.100.11:7010/api/Microbiology/"
+  LabOrder : "http://172.15.100.57:7000/CSI-NET-LABORDER-01/api/LabOrder/"
+  SampleCollection: "http://172.15.100.57:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
+  PatientService: "http://172.15.100.57:7000/CSI-NET-PATIENTS-01/api/Patient/"
+  LabMicrobiology: "http://172.15.100.57:7000/CSI-NET-MICROBIO-01/api/Microbiology/"
   Notification: "TestURL"
