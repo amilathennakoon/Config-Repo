@@ -9,7 +9,7 @@ Logging:
     Microsoft: Information
 TestVal: testvalue
 ConnectionStrings:
-  ReadCon: "Server=Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRDGOAL-01;User Id=postgres;Password=csi@2017;"
+  ReadCon: "Host=172.15.100.57;Port=5432; Database=CSI-EHR-WR-EHRDGOAL-01;User Id=postgres;Password=csi@2017;"
 eureka:
   client:
     shouldFetchRegistry: true
