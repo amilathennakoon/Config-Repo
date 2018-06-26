@@ -10,7 +10,6 @@ Logging:
 TestVal: testvalue
 ConnectionStrings:
   ReadCon: Host=localhost;Port=5432; Database=CSI-EHR-WR-EHRDGOAL-01;User Id=postgres;Password=cloud;
-  WriteCon: Host=localhost;Port=5432; Database=CSI-EHR-WR-EHRDGOAL-01;User Id=postgres;Password=cloud;
 eureka:
   client:
     shouldFetchRegistry: true
