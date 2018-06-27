@@ -1,0 +1,26 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRDGACT-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+ConnectionStrings:
+  ReadCon: Host=localhost;Port=5432; Database=CSI-EHR-WR-EHRDGACT-01;User Id=postgres;Password=cloud;
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRDGACT-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
