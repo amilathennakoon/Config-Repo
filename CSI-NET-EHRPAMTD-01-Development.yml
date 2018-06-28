@@ -23,6 +23,7 @@ redis:
     host: localhost
 ServiceURIS:
   AdmissionURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
+  EMPIURI: http://172.15.100.130:55267/api/patient/
 AdmissionPropertyMap:
   AdmissionID: AdmissionID
   AdmissionNo: AdmissionNo
