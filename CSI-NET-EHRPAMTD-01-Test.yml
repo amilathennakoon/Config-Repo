@@ -22,22 +22,26 @@ redis:
   client:
     host: localhost
 ServiceURIS:
-  AdmissionURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
+  AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
+  EMPIURI: http://172.15.100.130:55267/api/patient/
 AdmissionPropertyMap:
-  AdmissionID: AdmissionID
-  AdmissionNo: AdmissionNo
-  PatientID: PatientID
-  PatientName: PatientName
-  Nationality: Nationality
-  Age: Age
-  Status: Status
-  AdmissionDateTime:  AdmissionDateTime
-  LOS: LOS
-  AssignedDoctorID: AssignedDoctorID
-  AssignedDoctorName: AssignedDoctorName
-  BedNo: BedNo
-  IsLegalCase: IsLegalCase
-  HospitalGroupID: HospitalGroupID
-  HospitalID: HospitalID
-  ClinicGroupID: ClinicGroupID
-  ClinicID: ClinicID
+  AdmissionID: adtAdmisstionId
+  AdmissionNo: adtAdmisstionNo
+  PatientID: patientId
+  Status: approvalStatus
+  AdmissionDateTime:  admissionDate
+  LOS: expectedLengthOfstay
+  AssignedDoctorID: assignedDoctorId
+  AssignedDoctorName: assignedDoctorName
+  BedNo: bedNo
+  IsLegalCase: legalCase
+  HospitalGroupID: hospitalGroupId
+  HospitalID: hospitalId
+  ClinicGroupID: clinicGroupId
+  ClinicID: clinicId
+EMPIPropertyMap:
+  PatientFirstName: firstName
+  PatientLastName: lastName
+  PatientMiddleName: middleName
+  Nationality: nationality
+  Age: age
