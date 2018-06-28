@@ -44,4 +44,4 @@ EMPIPropertyMap:
   PatientLastName: lastName
   PatientMiddleName: middleName
   Nationality: nationality
-  Age: Age
+  Age: age
