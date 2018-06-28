@@ -40,6 +40,8 @@ AdmissionPropertyMap:
   ClinicGroupID: ClinicGroupID
   ClinicID: ClinicID
 EMPIPropertyMap:
-  PatientName: PatientName
-  Nationality: Nationality
+  PatientFirstName: firstName
+  PatientLastName: lastName
+  PatientMiddleName: middleName
+  Nationality: nationality
   Age: Age
