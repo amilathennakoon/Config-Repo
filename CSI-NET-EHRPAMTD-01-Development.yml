@@ -22,7 +22,7 @@ redis:
   client:
     host: localhost
 ServiceURIS:
-  AdmissionURI: http://172.15.100.57:2020/CSI-NET-EHRMOCKS-01/api/json/
+  AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
   EMPIURI: http://172.15.100.130:55267/api/patient/
 AdmissionPropertyMap:
   AdmissionID: AdmissionID
