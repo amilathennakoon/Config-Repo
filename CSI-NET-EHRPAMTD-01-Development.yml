@@ -28,9 +28,6 @@ AdmissionPropertyMap:
   AdmissionID: AdmissionID
   AdmissionNo: AdmissionNo
   PatientID: PatientID
-  PatientName: PatientName
-  Nationality: Nationality
-  Age: Age
   Status: Status
   AdmissionDateTime:  AdmissionDateTime
   LOS: LOS
@@ -42,5 +39,7 @@ AdmissionPropertyMap:
   HospitalID: HospitalID
   ClinicGroupID: ClinicGroupID
   ClinicID: ClinicID
-  
-  
+EMPIPropertyMap:
+  PatientName: PatientName
+  Nationality: Nationality
+  Age: Age
