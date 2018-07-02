@@ -26,3 +26,4 @@ ServiceUrls:
   SampleCollection: "http://172.15.100.11:7000/CSI-NET-SAMPLECL-01/api/SampleCollection/"
   PatientService: "http://172.15.100.11:7000/CSI-NET-PATIENTS-01/api/Patient/"
   LabResult: "http://172.15.100.11:7000/CSI-NET-LABRESLT-01/api/LabResults/"
+  LabOrder: "http://172.15.100.11:7000/CSI-NET-LABORDER-01/api/LabOrder/"
