@@ -29,24 +29,4 @@ ServiceURIS:
   labReportsURI:
   ProceduresURI: http://172.15.100.131:9096/ehr/opd/patientOrder/
   MedicationsURI: http://172.15.100.131:9093/ehr/opd/patientMedication/
-AdmissionPropertyMap:
-  AdmissionID: adtAdmisstionId
-  AdmissionNo: adtAdmisstionNo
-  PatientID: patientId
-  Status: approvalStatus
-  AdmissionDateTime:  admissionDate
-  LOS: expectedLengthOfstay
-  AssignedDoctorID: assignedDoctorId
-  AssignedDoctorName: assignedDoctorName
-  BedNo: bedNo
-  IsLegalCase: legalCase
-  HospitalGroupID: hospitalGroupId
-  HospitalID: hospitalId
-  ClinicGroupID: clinicGroupId
-  ClinicID: clinicId
-EMPIPropertyMap:
-  PatientFirstName: firstName
-  PatientLastName: lastName
-  PatientMiddleName: middleName
-  Nationality: nationality
-  Age: age
+
