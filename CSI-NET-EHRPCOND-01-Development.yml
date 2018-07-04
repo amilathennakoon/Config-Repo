@@ -23,11 +23,11 @@ redis:
     host: localhost
 ServiceURIS:
   AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
-  ProblemsURI:
-  VitalSignsURI:
+  ProblemsURI: http://172.15.100.131:8040/ehr/opd/patientProblem/
+  VitalSignsURI: 
   labReportsURI:
-  ProceduresURI:
-  MedicationsURI:
+  ProceduresURI: http://172.15.100.131:9096/ehr/opd/patientOrder/
+  MedicationsURI: http://172.15.100.131:9093/ehr/opd/patientMedication/
 AdmissionPropertyMap:
   AdmissionID: adtAdmisstionId
   AdmissionNo: adtAdmisstionNo
