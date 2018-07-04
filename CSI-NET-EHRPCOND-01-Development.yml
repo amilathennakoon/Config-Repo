@@ -25,7 +25,7 @@ ServiceURIS:
   AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
   PatientProblemsURI: http://172.15.100.131:8040/ehr/opd/patientProblem/
   ProblemMasterURI: http://172.15.100.57:2020/CSI-NET-EHRPROBM-01/api/ProblemMaster/
-  VitalSignsURI: 
+  VitalSignsURI: http://172.15.100.63:9012/vital-signs/latest/patient/ 
   labReportsURI:
   ProceduresURI: http://172.15.100.131:9096/ehr/opd/patientOrder/
   MedicationsURI: http://172.15.100.131:9093/ehr/opd/patientMedication/
