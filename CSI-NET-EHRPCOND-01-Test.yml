@@ -1,0 +1,31 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPCOND-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRPCOND-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
+  PatientProblemsURI: http://172.15.100.131:8040/ehr/opd/patientProblem/
+  ProblemMasterURI: http://172.15.100.57:2020/CSI-NET-EHRPROBM-01/api/ProblemMaster/
+  VitalSignsURI: 
+  labReportsURI:
+  ProceduresURI: http://172.15.100.131:9096/ehr/opd/patientOrder/
+  MedicationsURI: http://172.15.100.131:9093/ehr/opd/patientMedication/
