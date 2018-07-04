@@ -23,7 +23,8 @@ redis:
     host: localhost
 ServiceURIS:
   AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
-  ProblemsURI: http://172.15.100.131:8040/ehr/opd/patientProblem/
+  PatientProblemsURI: http://172.15.100.131:8040/ehr/opd/patientProblem/
+  ProblemsMasterURI:http://172.15.100.57:2020/CSI-NET-EHRPROBM-01/api/ProblemMaster/
   VitalSignsURI: 
   labReportsURI:
   ProceduresURI: http://172.15.100.131:9096/ehr/opd/patientOrder/
