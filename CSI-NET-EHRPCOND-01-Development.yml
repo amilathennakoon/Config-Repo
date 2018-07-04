@@ -1,0 +1,51 @@
+AppSettings:
+  SiteTitle: CSI-NET-EHRPCOND-01
+  CacheDbResults: true
+Logging: 
+  IncludeScopes: false
+  LogLevel: 
+    Default: Debug
+    System: Information
+    Microsoft: Information
+TestVal: testvalue
+eureka:
+  client:
+    shouldFetchRegistry: true
+    shouldRegisterWithEureka: true
+  instance:
+    preferIpAddress: false,
+    hostname: "CSI-NET-EHRPCOND-01.run.aws-usw02-pr.ice.predix.io"
+mysql:
+  client:
+    server: localhost
+redis:
+  client:
+    host: localhost
+ServiceURIS:
+  AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
+  ProblemsURI:
+  VitalSignsURI:
+  labReportsURI:
+  ProceduresURI:
+  MedicationsURI:
+AdmissionPropertyMap:
+  AdmissionID: adtAdmisstionId
+  AdmissionNo: adtAdmisstionNo
+  PatientID: patientId
+  Status: approvalStatus
+  AdmissionDateTime:  admissionDate
+  LOS: expectedLengthOfstay
+  AssignedDoctorID: assignedDoctorId
+  AssignedDoctorName: assignedDoctorName
+  BedNo: bedNo
+  IsLegalCase: legalCase
+  HospitalGroupID: hospitalGroupId
+  HospitalID: hospitalId
+  ClinicGroupID: clinicGroupId
+  ClinicID: clinicId
+EMPIPropertyMap:
+  PatientFirstName: firstName
+  PatientLastName: lastName
+  PatientMiddleName: middleName
+  Nationality: nationality
+  Age: age
