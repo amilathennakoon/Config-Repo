@@ -22,7 +22,7 @@ redis:
   client:
     host: localhost
 ServiceURIS:
-  AdmissionURI: http://172.15.100.131:1012/ehr/ip/doctor/read/admission/
+  AdmissionURI: http://192.168.137.1:1012/ehr/ip/doctor/read/admission/
   EMPIURI: http://172.15.100.130:55267/api/patient/
 AdmissionPropertyMap:
   AdmissionID: adtAdmisstionId
